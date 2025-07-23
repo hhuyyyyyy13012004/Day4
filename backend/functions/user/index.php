@@ -16,18 +16,18 @@ if (session_id() === '') {
   <title>NenTang.vn</title>
 
   <!-- Nhúng file Quản lý các Liên kết CSS dùng chung cho toàn bộ trang web -->
-  <?php include_once(__DIR__ . '/../layouts/styles.php'); ?>
+  <?php include_once(__DIR__ . '/../../layouts/styles.php'); ?>
 </head>
 
 <body class="d-flex flex-column h-100">
   <!-- header -->
-  <?php include_once(__DIR__ . '/../layouts/partials/header.php'); ?>
+  <?php include_once(__DIR__ . '/../../layouts/partials/header.php'); ?>
   <!-- end header -->
 
   <div class="container-fluid">
     <div class="row">
       <!-- sidebar -->
-      <?php include_once(__DIR__ . '/../layouts/partials/sidebar.php'); ?>
+      <?php include_once(__DIR__ . '/../../layouts/partials/sidebar.php'); ?>
       <!-- end sidebar -->
 
       <main role="main" class="col-md-10 ml-sm-auto px-4 mb-2">
@@ -99,11 +99,11 @@ if (session_id() === '') {
   </div>
 
   <!-- footer -->
-  <?php include_once(__DIR__ . '/../layouts/partials/footer.php'); ?>
+  <?php include_once(__DIR__ . '/../../layouts/partials/footer.php'); ?>
   <!-- end footer -->
 
   <!-- Nhúng file quản lý phần SCRIPT JAVASCRIPT -->
-  <?php include_once(__DIR__ . '/../layouts/scripts.php'); ?>
+  <?php include_once(__DIR__ . '/../../layouts/scripts.php'); ?>
 
   <!-- Các file Javascript sử dụng riêng cho trang này, liên kết tại đây -->
   <!-- Liên kết thư viện ChartJS -->
